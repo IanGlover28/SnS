@@ -275,7 +275,7 @@ useEffect(() => {
     <div>
       <h3 className="text-2xl font-bold text-blue-500 mb-4">Spic N Span</h3>
       <p className="text-sm text-gray-400">
-        Premium car detailing service in Canada. We restore your car&apos;s shine with precision and care.
+        Premium car detailing service in Canada. We restore your car shine with precision and care.
       </p>
     </div>
 
