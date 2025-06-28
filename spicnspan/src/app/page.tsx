@@ -235,12 +235,16 @@ useEffect(() => {
       style={{ transform: `translateX(-${currentSlide * 100}%)` }}
     >
       {Array.from({ length: 10 }, (_, i) => (
-        <img
-          key={i}
-          src={`/gallery/${i + 1}.jpeg`}
-          alt={`Gallery ${i + 1}`}
-          className="w-full flex-shrink-0 object-cover h-96"
-        />
+       <Image
+       key={i}
+       src={`/gallery/${i + 1}.jpeg`}
+       alt={`Gallery ${i + 1}`}
+       width={800}
+       height={400}
+       className="w-full flex-shrink-0 object-cover h-96"
+       priority
+     />
+     
       ))}
     </div>
 
@@ -271,7 +275,7 @@ useEffect(() => {
     <div>
       <h3 className="text-2xl font-bold text-blue-500 mb-4">Spic N Span</h3>
       <p className="text-sm text-gray-400">
-        Premium car detailing service in Canada. We restore your car’s shine with precision and care.
+        Premium car detailing service in Canada. We restore your car&rsquo;s shine with precision and care.
       </p>
     </div>
 
