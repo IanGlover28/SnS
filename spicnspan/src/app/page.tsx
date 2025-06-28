@@ -219,7 +219,7 @@ useEffect(() => {
         At spic N span, we are dedicated to providing exceptional auto detailing services that restore and enhance the beauty of your vehicle. With a passion for perfection and a commitment to customer satisfaction, our team of experienced professionals ensures every vehicle receives the highest level of care and attention to detail.
         </p>
         <p className="max-w-3xl mx-auto text-center text-lg text-gray-700 dark:text-gray-300">
-        Founded on the principles of quality, reliability, and transparency, we use only the finest products and advanced techniques to deliver remarkable results. Whether it's a thorough exterior wash, interior cleaning, or paint correction, we go above and beyond to ensure your car looks its absolute best.
+        Founded on the principles of quality, reliability, and transparency, we use only the finest products and advanced techniques to deliver remarkable results. Whether it&apos;s a thorough exterior wash, interior cleaning, or paint correction, we go above and beyond to ensure your car looks its absolute best.
         </p>
       </section>
 
